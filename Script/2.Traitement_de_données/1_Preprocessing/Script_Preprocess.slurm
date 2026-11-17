@@ -19,7 +19,7 @@ shopt -s nullglob
 # Caractèrisation de diverisité multitaxonomique (Diatomées, Insectes, Poissons) dans les sédiments capturé par des pièges à sédiments dans le Rhône.
 
 # Auteur : Arthur DROUET
-# Equipe : Johan PANSU (LEHNA, CNRS), Arthur DROUET (RIVERLY, INRAE)
+# Equipe : Johan PANSU (LEHNA, CNRS), Arthur DROUET (RIVERLY, INRAE), David EME (RIVERLY, INRAE), Maxime LOGEZ (RIVERLY, INRAE), Mathieu TOCABEN (LEHNA, CNRS)
 # Titre :  Preprocess Script
 
 # Objectif :
