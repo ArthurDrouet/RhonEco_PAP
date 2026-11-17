@@ -1,0 +1,25 @@
+Information pour les Tags et Primers utilisées.
+
+Diatomées:
+amorces F: ATTCCAGCTCCAATAGCGTA
+amorces R: CTTTRAACRCKCTRATTTYTTCAC
+tag 1 : gtctcgtc
+tag 2 : gaacgacc
+tag 3 : ctacttac
+combinaisons utilisées: tag1-tag1 (replicat '_a'), tag2-tag2 (replicat '_b'), tag3-tag3 (replicat '_c')
+
+Insecte:
+amorces F: RGACGAGAAGACCCTATARA
+amorces R: ACGCTGTTATCCCTAARGTA
+tag 1 : aaggacac
+tag 2 : gatcgcat
+tag 3 : ccagtagc
+combinaisons utilisées: tag1-tag1 (replicat '_a'), tag2-tag2 (replicat '_b'), tag3-tag3 (replicat '_c')
+
+Poisson:
+amorces F: ACACCGCCCGTCACTCT
+amorces R: CTTCCGGTACACTTACCATG
+tag 2 : tcgttcac
+tag 3 : ttcgtgct
+combinaisons utilisées: tag2-tag3 (replicat '_a'), tag2-tag2 (replicat '_b'), tag3-tag3 (replicat '_c')
+Pour la combinaison tag2-tag3, tu peux écrire 'tcgttcac:ttcgtgct' dans le fichier de demultiplexage.

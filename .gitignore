@@ -1,0 +1,30 @@
+# Données brutes
+/Data/
+
+# Résultats bioinformatiques
+/Results/
+
+# Figures générées
+/Figures/
+
+# Logs SLURM et fichiers temporaires
+*.out
+*.err
+*.log
+*.tmp
+
+# Fichiers R temporaires
+.Rhistory
+.RData
+.Rproj.user/
+
+# Fichiers de séquençage
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Fichiers contenant potentiellement des informations sensibles
+.env
+*.key
+*.pem
