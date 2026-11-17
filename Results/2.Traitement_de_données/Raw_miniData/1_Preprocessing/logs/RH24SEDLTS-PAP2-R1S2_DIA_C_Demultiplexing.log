@@ -1,0 +1,335 @@
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 0 -g CTACTTAC -G CTACTTAC -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R1_Demultiplexed.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R2_Demultiplexed.fastq.gz --untrimmed-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R1_NoTag.fastq.gz --untrimmed-paired-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R2_NoTag.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R1.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R2.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.94 s (11 µs/read; 5.34 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             83,781
+  Read 1 with adapter:                  50,428 (60.2%)
+  Read 2 with adapter:                  50,154 (59.9%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:           35,974 (42.9%)
+Pairs written (passing filters):        47,807 (57.1%)
+
+Total basepairs processed:    29,274,432 bp
+  Read 1:    14,635,931 bp
+  Read 2:    14,638,501 bp
+Total written (filtered):     15,968,488 bp (54.5%)
+  Read 1:     7,984,189 bp
+  Read 2:     7,984,299 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50428 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	75	1309.1	0	75
+4	60	327.3	0	60
+5	17	81.8	0	17
+6	69	20.5	0	69
+7	89	5.1	0	89
+8	50104	1.3	0	50104
+9	9	1.3	0	9
+21	1	1.3	0	1
+123	1	1.3	0	1
+160	3	1.3	0	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50154 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	101	1309.1	0	101
+4	70	327.3	0	70
+5	17	81.8	0	17
+6	111	20.5	0	111
+7	134	5.1	0	134
+8	49711	1.3	0	49711
+9	4	1.3	0	4
+43	1	1.3	0	1
+46	1	1.3	0	1
+66	1	1.3	0	1
+70	1	1.3	0	1
+165	1	1.3	0	1
+166	1	1.3	0	1
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 0 -g CTACTTAC -G CTACTTAC -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R1_Demultiplexed.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R2_Demultiplexed.fastq.gz --untrimmed-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R1_NoTag.fastq.gz --untrimmed-paired-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R2_NoTag.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R1.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R2.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.84 s (10 µs/read; 5.99 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             83,781
+  Read 1 with adapter:                  50,428 (60.2%)
+  Read 2 with adapter:                  50,154 (59.9%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:           35,974 (42.9%)
+Pairs written (passing filters):        47,807 (57.1%)
+
+Total basepairs processed:    29,274,432 bp
+  Read 1:    14,635,931 bp
+  Read 2:    14,638,501 bp
+Total written (filtered):     15,968,488 bp (54.5%)
+  Read 1:     7,984,189 bp
+  Read 2:     7,984,299 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50428 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	75	1309.1	0	75
+4	60	327.3	0	60
+5	17	81.8	0	17
+6	69	20.5	0	69
+7	89	5.1	0	89
+8	50104	1.3	0	50104
+9	9	1.3	0	9
+21	1	1.3	0	1
+123	1	1.3	0	1
+160	3	1.3	0	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50154 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	101	1309.1	0	101
+4	70	327.3	0	70
+5	17	81.8	0	17
+6	111	20.5	0	111
+7	134	5.1	0	134
+8	49711	1.3	0	49711
+9	4	1.3	0	4
+43	1	1.3	0	1
+46	1	1.3	0	1
+66	1	1.3	0	1
+70	1	1.3	0	1
+165	1	1.3	0	1
+166	1	1.3	0	1
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 0 -g CTACTTAC -G CTACTTAC -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R1_Demultiplexed.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R2_Demultiplexed.fastq.gz --untrimmed-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R1_NoTag.fastq.gz --untrimmed-paired-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R2_NoTag.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R1.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R2.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.85 s (10 µs/read; 5.93 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             83,781
+  Read 1 with adapter:                  50,428 (60.2%)
+  Read 2 with adapter:                  50,154 (59.9%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:           35,974 (42.9%)
+Pairs written (passing filters):        47,807 (57.1%)
+
+Total basepairs processed:    29,274,432 bp
+  Read 1:    14,635,931 bp
+  Read 2:    14,638,501 bp
+Total written (filtered):     15,968,488 bp (54.5%)
+  Read 1:     7,984,189 bp
+  Read 2:     7,984,299 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50428 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	75	1309.1	0	75
+4	60	327.3	0	60
+5	17	81.8	0	17
+6	69	20.5	0	69
+7	89	5.1	0	89
+8	50104	1.3	0	50104
+9	9	1.3	0	9
+21	1	1.3	0	1
+123	1	1.3	0	1
+160	3	1.3	0	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50154 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	101	1309.1	0	101
+4	70	327.3	0	70
+5	17	81.8	0	17
+6	111	20.5	0	111
+7	134	5.1	0	134
+8	49711	1.3	0	49711
+9	4	1.3	0	4
+43	1	1.3	0	1
+46	1	1.3	0	1
+66	1	1.3	0	1
+70	1	1.3	0	1
+165	1	1.3	0	1
+166	1	1.3	0	1
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 0 -g CTACTTAC -G CTACTTAC -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R1_Demultiplexed.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R2_Demultiplexed.fastq.gz --untrimmed-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R1_NoTag.fastq.gz --untrimmed-paired-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R2_NoTag.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R1.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R2.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.82 s (10 µs/read; 6.14 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             83,781
+  Read 1 with adapter:                  50,428 (60.2%)
+  Read 2 with adapter:                  50,154 (59.9%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:           35,974 (42.9%)
+Pairs written (passing filters):        47,807 (57.1%)
+
+Total basepairs processed:    29,274,432 bp
+  Read 1:    14,635,931 bp
+  Read 2:    14,638,501 bp
+Total written (filtered):     15,968,488 bp (54.5%)
+  Read 1:     7,984,189 bp
+  Read 2:     7,984,299 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50428 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	75	1309.1	0	75
+4	60	327.3	0	60
+5	17	81.8	0	17
+6	69	20.5	0	69
+7	89	5.1	0	89
+8	50104	1.3	0	50104
+9	9	1.3	0	9
+21	1	1.3	0	1
+123	1	1.3	0	1
+160	3	1.3	0	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50154 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	101	1309.1	0	101
+4	70	327.3	0	70
+5	17	81.8	0	17
+6	111	20.5	0	111
+7	134	5.1	0	134
+8	49711	1.3	0	49711
+9	4	1.3	0	4
+43	1	1.3	0	1
+46	1	1.3	0	1
+66	1	1.3	0	1
+70	1	1.3	0	1
+165	1	1.3	0	1
+166	1	1.3	0	1
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 0 -g CTACTTAC -G CTACTTAC -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R1_Demultiplexed.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_C_R2_Demultiplexed.fastq.gz --untrimmed-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R1_NoTag.fastq.gz --untrimmed-paired-output /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_R2_NoTag.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R1.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDLTS-PAP2-R1S2_DIA_NoTag_B_R2.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.84 s (10 µs/read; 6.02 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             83,781
+  Read 1 with adapter:                  50,428 (60.2%)
+  Read 2 with adapter:                  50,154 (59.9%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:           35,974 (42.9%)
+Pairs written (passing filters):        47,807 (57.1%)
+
+Total basepairs processed:    29,274,432 bp
+  Read 1:    14,635,931 bp
+  Read 2:    14,638,501 bp
+Total written (filtered):     15,968,488 bp (54.5%)
+  Read 1:     7,984,189 bp
+  Read 2:     7,984,299 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50428 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	75	1309.1	0	75
+4	60	327.3	0	60
+5	17	81.8	0	17
+6	69	20.5	0	69
+7	89	5.1	0	89
+8	50104	1.3	0	50104
+9	9	1.3	0	9
+21	1	1.3	0	1
+123	1	1.3	0	1
+160	3	1.3	0	3
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTACTTAC; Type: regular 5'; Length: 8; Trimmed: 50154 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-8 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	101	1309.1	0	101
+4	70	327.3	0	70
+5	17	81.8	0	17
+6	111	20.5	0	111
+7	134	5.1	0	134
+8	49711	1.3	0	49711
+9	4	1.3	0	4
+43	1	1.3	0	1
+46	1	1.3	0	1
+66	1	1.3	0	1
+70	1	1.3	0	1
+165	1	1.3	0	1
+166	1	1.3	0	1

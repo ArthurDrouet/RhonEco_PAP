@@ -1,0 +1,116 @@
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 2 -g ACACCGCCCGTCACTCT -G CTTCCGGTACACTTACCATG --discard-untrimmed -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_RemovePrimer.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_RemovePrimer.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_Demultiplexed.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_Demultiplexed.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.13 s (128251 µs/read; 0.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                  1
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                       0 (0.0%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:                1 (100.0%)
+Pairs written (passing filters):             0 (0.0%)
+
+Total basepairs processed:           340 bp
+  Read 1:           171 bp
+  Read 2:           169 bp
+Total written (filtered):              0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: ACACCGCCCGTCACTCT; Type: regular 5'; Length: 17; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTTCCGGTACACTTACCATG; Type: regular 5'; Length: 20; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 2 -g ACACCGCCCGTCACTCT -G CTTCCGGTACACTTACCATG --discard-untrimmed -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_RemovePrimer.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_RemovePrimer.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_Demultiplexed.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_Demultiplexed.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.07 s (66770 µs/read; 0.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                  1
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                       0 (0.0%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:                1 (100.0%)
+Pairs written (passing filters):             0 (0.0%)
+
+Total basepairs processed:           340 bp
+  Read 1:           171 bp
+  Read 2:           169 bp
+Total written (filtered):              0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: ACACCGCCCGTCACTCT; Type: regular 5'; Length: 17; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTTCCGGTACACTTACCATG; Type: regular 5'; Length: 20; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 2 -g ACACCGCCCGTCACTCT -G CTTCCGGTACACTTACCATG --discard-untrimmed -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_RemovePrimer.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_RemovePrimer.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_Demultiplexed.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_Demultiplexed.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.07 s (67014 µs/read; 0.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                  1
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                       0 (0.0%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:                1 (100.0%)
+Pairs written (passing filters):             0 (0.0%)
+
+Total basepairs processed:           340 bp
+  Read 1:           171 bp
+  Read 2:           169 bp
+Total written (filtered):              0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: ACACCGCCCGTCACTCT; Type: regular 5'; Length: 17; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTTCCGGTACACTTACCATG; Type: regular 5'; Length: 20; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.6
+Command line parameters: -j 8 -e 2 -g ACACCGCCCGTCACTCT -G CTTCCGGTACACTTACCATG --discard-untrimmed -o /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_RemovePrimer.fastq.gz -p /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_RemovePrimer.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_Demultiplexed.fastq.gz /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/Demultiplexing/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_Demultiplexed.fastq.gz
+Processing reads on 8 cores in paired-end mode ...
+Finished in 0.07 s (66486 µs/read; 0.00 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:                  1
+  Read 1 with adapter:                       0 (0.0%)
+  Read 2 with adapter:                       0 (0.0%)
+
+== Read fate breakdown ==
+Pairs discarded as untrimmed:                1 (100.0%)
+Pairs written (passing filters):             0 (0.0%)
+
+Total basepairs processed:           340 bp
+  Read 1:           171 bp
+  Read 2:           169 bp
+Total written (filtered):              0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: ACACCGCCCGTCACTCT; Type: regular 5'; Length: 17; Trimmed: 0 times
+
+=== Second read: Adapter 2 ===
+
+Sequence: CTTCCGGTACACTTACCATG; Type: regular 5'; Length: 20; Trimmed: 0 times

@@ -1,16 +1,17 @@
 # Données brutes
-/Data/
+/Data/Raw_Data
+/Data/Raw_miniData
 
 # Résultats bioinformatiques
-/Results/
+# /Results/
 
 # Figures générées
-/Figures/
+# /Figures/
 
 # Logs SLURM et fichiers temporaires
-*.out
-*.err
-*.log
+# *.out
+# *.err
+# *.log
 *.tmp
 
 # Fichiers R temporaires
@@ -23,6 +24,7 @@
 *.fastq.gz
 *.fq
 *.fq.gz
+*_fastqc*
 
 # Fichiers contenant potentiellement des informations sensibles
 .env

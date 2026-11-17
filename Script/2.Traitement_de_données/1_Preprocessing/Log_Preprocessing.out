@@ -1,0 +1,645 @@
+- [STEP 1] : Paths and working directory - 
+Data selctionné : /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Data/Raw_miniData 
+Chemin d'écriture : /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing 
+ Quality Check activé ? : YES 
+- [STEP 2] : Select Primer & Tag-
+ For Diatomées
+ -- Primer selection for Diatomées -- 
+FORWARD PRIMER : ATTCCAGCTCCAATAGCGTA
+REVERSE PRIMER : CTTTRAACRCKCTRATTTYTTCAC
+ -- Tag selection for Diatomées -- 
+TAG 1 : GTCTCGTC
+TAG 2 : GAACGACC
+TAG 3 : CTACTTAC
+ For Insectes
+ -- Primer selection for Insectes -- 
+FORWARD PRIMER : RGACGAGAAGACCCTATARA
+REVERSE PRIMER : ACGCTGTTATCCCTAARGTA
+ -- Tag selection for Insectes -- 
+TAG 1 : AAGGACAC 
+TAG 2 : GATCGCAT
+TAG 3 : CCAGTAGC
+ For Fish
+ -- Primer selection for Fish -- 
+FORWARD PRIMER : ACACCGCCCGTCACTCT
+REVERSE PRIMER : CTTCCGGTACACTTACCATG
+ -- Tag selection for Fish -- 
+TAG 1 : TCGTTCAC - TTCGTGCT
+TAG 2 : TCGTTCAC
+TAG 3 : TTCGTGCT
+- [STEP 3] : Demultiplexing   -
+Demultiplexing for sample : DB23-BAR-S03-Diat
+Demultiplexing replicate A of the sample : DB23-BAR-S03-Diat
+Demultiplexing replicate B of the sample : DB23-BAR-S03-Diat
+Demultiplexing replicate C of the sample : DB23-BAR-S03-Diat
+Demultiplexing for sample : DB23-BEC-S02-Diat
+Demultiplexing replicate A of the sample : DB23-BEC-S02-Diat
+Demultiplexing replicate B of the sample : DB23-BEC-S02-Diat
+Demultiplexing replicate C of the sample : DB23-BEC-S02-Diat
+Demultiplexing for sample : DB23-BIS-S04-Diat
+Demultiplexing replicate A of the sample : DB23-BIS-S04-Diat
+Demultiplexing replicate B of the sample : DB23-BIS-S04-Diat
+Demultiplexing replicate C of the sample : DB23-BIS-S04-Diat
+Demultiplexing for sample : DB23-BOU-S05-Diat
+Demultiplexing replicate A of the sample : DB23-BOU-S05-Diat
+Demultiplexing replicate B of the sample : DB23-BOU-S05-Diat
+Demultiplexing replicate C of the sample : DB23-BOU-S05-Diat
+Demultiplexing for sample : DB23-ExtCtl-s08-Diat
+Demultiplexing replicate A of the sample : DB23-ExtCtl-s08-Diat
+Demultiplexing replicate B of the sample : DB23-ExtCtl-s08-Diat
+Demultiplexing replicate C of the sample : DB23-ExtCtl-s08-Diat
+Demultiplexing for sample : DB23-ExtCtl-s22-Diat
+Demultiplexing replicate A of the sample : DB23-ExtCtl-s22-Diat
+Demultiplexing replicate B of the sample : DB23-ExtCtl-s22-Diat
+Demultiplexing replicate C of the sample : DB23-ExtCtl-s22-Diat
+Demultiplexing for sample : DB23-GEL-S06-Diat
+Demultiplexing replicate A of the sample : DB23-GEL-S06-Diat
+Demultiplexing replicate B of the sample : DB23-GEL-S06-Diat
+Demultiplexing replicate C of the sample : DB23-GEL-S06-Diat
+Demultiplexing for sample : DB23-LIN-s01-Diat
+Demultiplexing replicate A of the sample : DB23-LIN-s01-Diat
+Demultiplexing replicate B of the sample : DB23-LIN-s01-Diat
+Demultiplexing replicate C of the sample : DB23-LIN-s01-Diat
+Demultiplexing for sample : DB23-MON-S05-Diat
+Demultiplexing replicate A of the sample : DB23-MON-S05-Diat
+Demultiplexing replicate B of the sample : DB23-MON-S05-Diat
+Demultiplexing replicate C of the sample : DB23-MON-S05-Diat
+Demultiplexing for sample : DB23-PcrCtl-11-Diat
+Demultiplexing replicate A of the sample : DB23-PcrCtl-11-Diat
+Demultiplexing replicate B of the sample : DB23-PcrCtl-11-Diat
+Demultiplexing replicate C of the sample : DB23-PcrCtl-11-Diat
+Demultiplexing for sample : DB23-PETGA-S03-Diat
+Demultiplexing replicate A of the sample : DB23-PETGA-S03-Diat
+Demultiplexing replicate B of the sample : DB23-PETGA-S03-Diat
+Demultiplexing replicate C of the sample : DB23-PETGA-S03-Diat
+Demultiplexing for sample : DB23-ROM-S04-Diat
+Demultiplexing replicate A of the sample : DB23-ROM-S04-Diat
+Demultiplexing replicate B of the sample : DB23-ROM-S04-Diat
+Demultiplexing replicate C of the sample : DB23-ROM-S04-Diat
+Demultiplexing for sample : DB23-VIE-s01-Diat
+Demultiplexing replicate A of the sample : DB23-VIE-s01-Diat
+Demultiplexing replicate B of the sample : DB23-VIE-s01-Diat
+Demultiplexing replicate C of the sample : DB23-VIE-s01-Diat
+Demultiplexing for sample : PosCtl-02-Diat
+Demultiplexing replicate A of the sample : PosCtl-02-Diat
+Demultiplexing replicate B of the sample : PosCtl-02-Diat
+Demultiplexing replicate C of the sample : PosCtl-02-Diat
+Demultiplexing for sample : RH24EAUFIL-Ext-T3
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate B for taxon : DIA for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate C for taxon : DIA for sample : RH24EAUFIL-Ext-T3
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate B for taxon : INSE for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate C for taxon : INSE for sample : RH24EAUFIL-Ext-T3
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate B for taxon : FISH for sample : RH24EAUFIL-Ext-T3
+Demultiplexing replicate C for taxon : FISH for sample : RH24EAUFIL-Ext-T3
+Demultiplexing for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate B for taxon : DIA for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate C for taxon : DIA for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate B for taxon : INSE for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate C for taxon : INSE for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate B for taxon : FISH for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing replicate C for taxon : FISH for sample : RH24EAUFIL-PAP2-R1S2
+Demultiplexing for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate B for taxon : DIA for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate C for taxon : DIA for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate B for taxon : INSE for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate C for taxon : INSE for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate B for taxon : FISH for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing replicate C for taxon : FISH for sample : RH24SEDEXC-PAP1-R1S4
+Demultiplexing for sample : RH24SEDLTS-Ext-T1
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate B for taxon : DIA for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate C for taxon : DIA for sample : RH24SEDLTS-Ext-T1
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate B for taxon : INSE for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate C for taxon : INSE for sample : RH24SEDLTS-Ext-T1
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate B for taxon : FISH for sample : RH24SEDLTS-Ext-T1
+Demultiplexing replicate C for taxon : FISH for sample : RH24SEDLTS-Ext-T1
+Demultiplexing for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate B for taxon : DIA for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate C for taxon : DIA for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate B for taxon : INSE for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate C for taxon : INSE for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate B for taxon : FISH for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing replicate C for taxon : FISH for sample : RH24SEDLTS-PAP2-R1S2
+Demultiplexing for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing for taxon : DIA
+Demultiplexing replicate A for taxon : DIA for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate B for taxon : DIA for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate C for taxon : DIA for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing for taxon : INSE
+Demultiplexing replicate A for taxon : INSE for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate B for taxon : INSE for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate C for taxon : INSE for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing for taxon : FISH
+Demultiplexing replicate A for taxon : FISH for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate B for taxon : FISH for sample : RH24SEDLTS-PAP2-R2S4
+Demultiplexing replicate C for taxon : FISH for sample : RH24SEDLTS-PAP2-R2S4
+ - [STEP 4] : Remove Primer - 
+Remove Primer for : DB23-BAR-S03-Diat_A
+Remove Primer for : DB23-BAR-S03-Diat_B
+Remove Primer for : DB23-BAR-S03-Diat_C
+Remove Primer for : DB23-BEC-S02-Diat_A
+Remove Primer for : DB23-BEC-S02-Diat_B
+Remove Primer for : DB23-BEC-S02-Diat_C
+Remove Primer for : DB23-BIS-S04-Diat_A
+Remove Primer for : DB23-BIS-S04-Diat_B
+Remove Primer for : DB23-BIS-S04-Diat_C
+Remove Primer for : DB23-BOU-S05-Diat_A
+Remove Primer for : DB23-BOU-S05-Diat_B
+Remove Primer for : DB23-BOU-S05-Diat_C
+Remove Primer for : DB23-ExtCtl-s08-Diat_A
+Remove Primer for : DB23-ExtCtl-s08-Diat_B
+Remove Primer for : DB23-ExtCtl-s08-Diat_C
+Remove Primer for : DB23-ExtCtl-s22-Diat_A
+Remove Primer for : DB23-ExtCtl-s22-Diat_B
+Remove Primer for : DB23-ExtCtl-s22-Diat_C
+Remove Primer for : DB23-GEL-S06-Diat_A
+Remove Primer for : DB23-GEL-S06-Diat_B
+Remove Primer for : DB23-GEL-S06-Diat_C
+Remove Primer for : DB23-LIN-s01-Diat_A
+Remove Primer for : DB23-LIN-s01-Diat_B
+Remove Primer for : DB23-LIN-s01-Diat_C
+Remove Primer for : DB23-MON-S05-Diat_A
+Remove Primer for : DB23-MON-S05-Diat_B
+Remove Primer for : DB23-MON-S05-Diat_C
+Remove Primer for : DB23-PcrCtl-11-Diat_A
+Remove Primer for : DB23-PcrCtl-11-Diat_B
+Remove Primer for : DB23-PcrCtl-11-Diat_C
+Remove Primer for : DB23-PETGA-S03-Diat_A
+Remove Primer for : DB23-PETGA-S03-Diat_B
+Remove Primer for : DB23-PETGA-S03-Diat_C
+Remove Primer for : DB23-ROM-S04-Diat_A
+Remove Primer for : DB23-ROM-S04-Diat_B
+Remove Primer for : DB23-ROM-S04-Diat_C
+Remove Primer for : DB23-VIE-s01-Diat_A
+Remove Primer for : DB23-VIE-s01-Diat_B
+Remove Primer for : DB23-VIE-s01-Diat_C
+Remove Primer for : PosCtl-02-Diat_A
+Remove Primer for : PosCtl-02-Diat_B
+Remove Primer for : PosCtl-02-Diat_C
+Remove Primer for : RH24EAUFIL-Ext-T3_DIA_A
+Remove Primer for : RH24EAUFIL-Ext-T3_DIA_B
+Remove Primer for : RH24EAUFIL-Ext-T3_DIA_C
+Remove Primer for : RH24EAUFIL-Ext-T3_FISH_A
+Remove Primer for : RH24EAUFIL-Ext-T3_FISH_B
+Remove Primer for : RH24EAUFIL-Ext-T3_FISH_C
+Remove Primer for : RH24EAUFIL-Ext-T3_INSE_A
+Remove Primer for : RH24EAUFIL-Ext-T3_INSE_B
+Remove Primer for : RH24EAUFIL-Ext-T3_INSE_C
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_DIA_A
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_DIA_B
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_DIA_C
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_FISH_A
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_FISH_B
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_FISH_C
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_INSE_A
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_INSE_B
+Remove Primer for : RH24EAUFIL-PAP2-R1S2_INSE_C
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_DIA_A
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_DIA_B
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_DIA_C
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_FISH_A
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_FISH_B
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_FISH_C
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_INSE_A
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_INSE_B
+Remove Primer for : RH24SEDEXC-PAP1-R1S4_INSE_C
+Remove Primer for : RH24SEDLTS-Ext-T1_DIA_A
+Remove Primer for : RH24SEDLTS-Ext-T1_DIA_B
+Remove Primer for : RH24SEDLTS-Ext-T1_DIA_C
+Remove Primer for : RH24SEDLTS-Ext-T1_FISH_A
+Remove Primer for : RH24SEDLTS-Ext-T1_FISH_B
+Remove Primer for : RH24SEDLTS-Ext-T1_FISH_C
+Remove Primer for : RH24SEDLTS-Ext-T1_INSE_A
+Remove Primer for : RH24SEDLTS-Ext-T1_INSE_B
+Remove Primer for : RH24SEDLTS-Ext-T1_INSE_C
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_DIA_A
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_DIA_B
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_DIA_C
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_FISH_A
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_FISH_B
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_FISH_C
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_INSE_A
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_INSE_B
+Remove Primer for : RH24SEDLTS-PAP2-R1S2_INSE_C
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_DIA_A
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_DIA_B
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_DIA_C
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_FISH_A
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_FISH_B
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_FISH_C
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_INSE_A
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_INSE_B
+Remove Primer for : RH24SEDLTS-PAP2-R2S4_INSE_C
+- [STEP 5] : Number of reads -
+Counting reads for sample : DB23-BAR-S03-Diat
+Counting reads for sample : DB23-BEC-S02-Diat
+Counting reads for sample : DB23-BIS-S04-Diat
+Counting reads for sample : DB23-BOU-S05-Diat
+Counting reads for sample : DB23-ExtCtl-s08-Diat
+Counting reads for sample : DB23-ExtCtl-s22-Diat
+Counting reads for sample : DB23-GEL-S06-Diat
+Counting reads for sample : DB23-LIN-s01-Diat
+Counting reads for sample : DB23-MON-S05-Diat
+Counting reads for sample : DB23-PcrCtl-11-Diat
+Counting reads for sample : DB23-PETGA-S03-Diat
+Counting reads for sample : DB23-ROM-S04-Diat
+Counting reads for sample : DB23-VIE-s01-Diat
+Counting reads for sample : PosCtl-02-Diat
+Counting reads for sample : RH24EAUFIL-Ext-T3
+Counting reads for sample : RH24EAUFIL-PAP2-R1S2
+Counting reads for sample : RH24SEDEXC-PAP1-R1S4
+Counting reads for sample : RH24SEDLTS-Ext-T1
+Counting reads for sample : RH24SEDLTS-PAP2-R1S2
+Counting reads for sample : RH24SEDLTS-PAP2-R2S4
+Nombre de reads par échantillon (fichier : /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/NumberReads/NumberReads.tsv) :
+Stage	Sample	Taxon	Replicate	R1_reads	R2_reads
+Raw	DB23-BAR-S03-Diat	NA	NA	125476	125476
+Demultiplexed	DB23-BAR-S03-Diat	INSE	A	69259	69259
+RemovePrimer	DB23-BAR-S03-Diat	INSE	A	68412	68412
+Demultiplexed	DB23-BAR-S03-Diat	INSE	B	34655	34655
+RemovePrimer	DB23-BAR-S03-Diat	INSE	B	34345	34345
+Demultiplexed	DB23-BAR-S03-Diat	INSE	C	17	17
+RemovePrimer	DB23-BAR-S03-Diat	INSE	C	17	17
+NoTag	DB23-BAR-S03-Diat	INSE	NA	21545	21545
+Raw	DB23-BEC-S02-Diat	NA	NA	61146	61146
+Demultiplexed	DB23-BEC-S02-Diat	INSE	A	28682	28682
+RemovePrimer	DB23-BEC-S02-Diat	INSE	A	28313	28313
+Demultiplexed	DB23-BEC-S02-Diat	INSE	B	22140	22140
+RemovePrimer	DB23-BEC-S02-Diat	INSE	B	21920	21920
+Demultiplexed	DB23-BEC-S02-Diat	INSE	C	22	22
+RemovePrimer	DB23-BEC-S02-Diat	INSE	C	22	22
+NoTag	DB23-BEC-S02-Diat	INSE	NA	10302	10302
+Raw	DB23-BIS-S04-Diat	NA	NA	71266	71266
+Demultiplexed	DB23-BIS-S04-Diat	INSE	A	42760	42760
+RemovePrimer	DB23-BIS-S04-Diat	INSE	A	42310	42310
+Demultiplexed	DB23-BIS-S04-Diat	INSE	B	14671	14671
+RemovePrimer	DB23-BIS-S04-Diat	INSE	B	14500	14500
+Demultiplexed	DB23-BIS-S04-Diat	INSE	C	31	31
+RemovePrimer	DB23-BIS-S04-Diat	INSE	C	28	28
+NoTag	DB23-BIS-S04-Diat	INSE	NA	13804	13804
+Raw	DB23-BOU-S05-Diat	NA	NA	71521	71521
+Demultiplexed	DB23-BOU-S05-Diat	INSE	A	35788	35788
+RemovePrimer	DB23-BOU-S05-Diat	INSE	A	35328	35328
+Demultiplexed	DB23-BOU-S05-Diat	INSE	B	21984	21984
+RemovePrimer	DB23-BOU-S05-Diat	INSE	B	21777	21777
+Demultiplexed	DB23-BOU-S05-Diat	INSE	C	9	9
+RemovePrimer	DB23-BOU-S05-Diat	INSE	C	9	9
+NoTag	DB23-BOU-S05-Diat	INSE	NA	13740	13740
+Raw	DB23-ExtCtl-s08-Diat	NA	NA	278	278
+Demultiplexed	DB23-ExtCtl-s08-Diat	INSE	A	17	17
+RemovePrimer	DB23-ExtCtl-s08-Diat	INSE	A	14	14
+Demultiplexed	DB23-ExtCtl-s08-Diat	INSE	B	12	12
+RemovePrimer	DB23-ExtCtl-s08-Diat	INSE	B	12	12
+Demultiplexed	DB23-ExtCtl-s08-Diat	INSE	C	9	9
+RemovePrimer	DB23-ExtCtl-s08-Diat	INSE	C	9	9
+NoTag	DB23-ExtCtl-s08-Diat	INSE	NA	240	240
+Raw	DB23-ExtCtl-s22-Diat	NA	NA	1006	1006
+Demultiplexed	DB23-ExtCtl-s22-Diat	INSE	A	42	42
+RemovePrimer	DB23-ExtCtl-s22-Diat	INSE	A	37	37
+Demultiplexed	DB23-ExtCtl-s22-Diat	INSE	B	20	20
+RemovePrimer	DB23-ExtCtl-s22-Diat	INSE	B	19	19
+Demultiplexed	DB23-ExtCtl-s22-Diat	INSE	C	8	8
+RemovePrimer	DB23-ExtCtl-s22-Diat	INSE	C	8	8
+NoTag	DB23-ExtCtl-s22-Diat	INSE	NA	936	936
+Raw	DB23-GEL-S06-Diat	NA	NA	58110	58110
+Demultiplexed	DB23-GEL-S06-Diat	INSE	A	30931	30931
+RemovePrimer	DB23-GEL-S06-Diat	INSE	A	30539	30539
+Demultiplexed	DB23-GEL-S06-Diat	INSE	B	16873	16873
+RemovePrimer	DB23-GEL-S06-Diat	INSE	B	16563	16563
+Demultiplexed	DB23-GEL-S06-Diat	INSE	C	12	12
+RemovePrimer	DB23-GEL-S06-Diat	INSE	C	11	11
+NoTag	DB23-GEL-S06-Diat	INSE	NA	10294	10294
+Raw	DB23-LIN-s01-Diat	NA	NA	75039	75039
+Demultiplexed	DB23-LIN-s01-Diat	INSE	A	32302	32302
+RemovePrimer	DB23-LIN-s01-Diat	INSE	A	31925	31925
+Demultiplexed	DB23-LIN-s01-Diat	INSE	B	28590	28590
+RemovePrimer	DB23-LIN-s01-Diat	INSE	B	28324	28324
+Demultiplexed	DB23-LIN-s01-Diat	INSE	C	19	19
+RemovePrimer	DB23-LIN-s01-Diat	INSE	C	18	18
+NoTag	DB23-LIN-s01-Diat	INSE	NA	14128	14128
+Raw	DB23-MON-S05-Diat	NA	NA	70277	70277
+Demultiplexed	DB23-MON-S05-Diat	INSE	A	41794	41794
+RemovePrimer	DB23-MON-S05-Diat	INSE	A	41256	41256
+Demultiplexed	DB23-MON-S05-Diat	INSE	B	16987	16987
+RemovePrimer	DB23-MON-S05-Diat	INSE	B	16841	16841
+Demultiplexed	DB23-MON-S05-Diat	INSE	C	14	14
+RemovePrimer	DB23-MON-S05-Diat	INSE	C	14	14
+NoTag	DB23-MON-S05-Diat	INSE	NA	11482	11482
+Raw	DB23-PcrCtl-11-Diat	NA	NA	73159	73159
+Demultiplexed	DB23-PcrCtl-11-Diat	INSE	A	58253	58253
+RemovePrimer	DB23-PcrCtl-11-Diat	INSE	A	57563	57563
+Demultiplexed	DB23-PcrCtl-11-Diat	INSE	B	5148	5148
+RemovePrimer	DB23-PcrCtl-11-Diat	INSE	B	5094	5094
+Demultiplexed	DB23-PcrCtl-11-Diat	INSE	C	6	6
+RemovePrimer	DB23-PcrCtl-11-Diat	INSE	C	5	5
+NoTag	DB23-PcrCtl-11-Diat	INSE	NA	9752	9752
+Raw	DB23-PETGA-S03-Diat	NA	NA	74352	74352
+Demultiplexed	DB23-PETGA-S03-Diat	INSE	A	47516	47516
+RemovePrimer	DB23-PETGA-S03-Diat	INSE	A	47048	47048
+Demultiplexed	DB23-PETGA-S03-Diat	INSE	B	15474	15474
+RemovePrimer	DB23-PETGA-S03-Diat	INSE	B	15357	15357
+Demultiplexed	DB23-PETGA-S03-Diat	INSE	C	16	16
+RemovePrimer	DB23-PETGA-S03-Diat	INSE	C	15	15
+NoTag	DB23-PETGA-S03-Diat	INSE	NA	11346	11346
+Raw	DB23-ROM-S04-Diat	NA	NA	59519	59519
+Demultiplexed	DB23-ROM-S04-Diat	INSE	A	28808	28808
+RemovePrimer	DB23-ROM-S04-Diat	INSE	A	28481	28481
+Demultiplexed	DB23-ROM-S04-Diat	INSE	B	20363	20363
+RemovePrimer	DB23-ROM-S04-Diat	INSE	B	20208	20208
+Demultiplexed	DB23-ROM-S04-Diat	INSE	C	11	11
+RemovePrimer	DB23-ROM-S04-Diat	INSE	C	8	8
+NoTag	DB23-ROM-S04-Diat	INSE	NA	10337	10337
+Raw	DB23-VIE-s01-Diat	NA	NA	85225	85225
+Demultiplexed	DB23-VIE-s01-Diat	INSE	A	48985	48985
+RemovePrimer	DB23-VIE-s01-Diat	INSE	A	48300	48300
+Demultiplexed	DB23-VIE-s01-Diat	INSE	B	19704	19704
+RemovePrimer	DB23-VIE-s01-Diat	INSE	B	19543	19543
+Demultiplexed	DB23-VIE-s01-Diat	INSE	C	21	21
+RemovePrimer	DB23-VIE-s01-Diat	INSE	C	20	20
+NoTag	DB23-VIE-s01-Diat	INSE	NA	16515	16515
+Raw	PosCtl-02-Diat	NA	NA	76771	76771
+Demultiplexed	PosCtl-02-Diat	INSE	A	8624	8624
+RemovePrimer	PosCtl-02-Diat	INSE	A	8533	8533
+Demultiplexed	PosCtl-02-Diat	INSE	B	52402	52402
+RemovePrimer	PosCtl-02-Diat	INSE	B	51762	51762
+Demultiplexed	PosCtl-02-Diat	INSE	C	15	15
+RemovePrimer	PosCtl-02-Diat	INSE	C	14	14
+NoTag	PosCtl-02-Diat	INSE	NA	15730	15730
+Raw	RH24EAUFIL-Ext-T3	NA	NA	1717	1717
+Demultiplexed	RH24EAUFIL-Ext-T3	INSE	A	0	0
+RemovePrimer	RH24EAUFIL-Ext-T3	INSE	A	0	0
+Demultiplexed	RH24EAUFIL-Ext-T3	INSE	B	3	3
+RemovePrimer	RH24EAUFIL-Ext-T3	INSE	B	3	3
+Demultiplexed	RH24EAUFIL-Ext-T3	INSE	C	1	1
+RemovePrimer	RH24EAUFIL-Ext-T3	INSE	C	0	0
+NoTag	RH24EAUFIL-Ext-T3	INSE	NA	1713	1713
+Raw	RH24EAUFIL-PAP2-R1S2	NA	NA	137287	137287
+Demultiplexed	RH24EAUFIL-PAP2-R1S2	INSE	A	3141	3141
+RemovePrimer	RH24EAUFIL-PAP2-R1S2	INSE	A	3129	3129
+Demultiplexed	RH24EAUFIL-PAP2-R1S2	INSE	B	8277	8277
+RemovePrimer	RH24EAUFIL-PAP2-R1S2	INSE	B	8222	8222
+Demultiplexed	RH24EAUFIL-PAP2-R1S2	INSE	C	9675	9675
+RemovePrimer	RH24EAUFIL-PAP2-R1S2	INSE	C	9640	9640
+NoTag	RH24EAUFIL-PAP2-R1S2	INSE	NA	116194	116194
+Raw	RH24SEDEXC-PAP1-R1S4	NA	NA	99949	99949
+Demultiplexed	RH24SEDEXC-PAP1-R1S4	INSE	A	9764	9764
+RemovePrimer	RH24SEDEXC-PAP1-R1S4	INSE	A	9729	9729
+Demultiplexed	RH24SEDEXC-PAP1-R1S4	INSE	B	9341	9341
+RemovePrimer	RH24SEDEXC-PAP1-R1S4	INSE	B	9300	9300
+Demultiplexed	RH24SEDEXC-PAP1-R1S4	INSE	C	13014	13014
+RemovePrimer	RH24SEDEXC-PAP1-R1S4	INSE	C	12965	12965
+NoTag	RH24SEDEXC-PAP1-R1S4	INSE	NA	67830	67830
+Raw	RH24SEDLTS-Ext-T1	NA	NA	139853	139853
+Demultiplexed	RH24SEDLTS-Ext-T1	INSE	A	4	4
+RemovePrimer	RH24SEDLTS-Ext-T1	INSE	A	2	2
+Demultiplexed	RH24SEDLTS-Ext-T1	INSE	B	8	8
+RemovePrimer	RH24SEDLTS-Ext-T1	INSE	B	6	6
+Demultiplexed	RH24SEDLTS-Ext-T1	INSE	C	14	14
+RemovePrimer	RH24SEDLTS-Ext-T1	INSE	C	12	12
+NoTag	RH24SEDLTS-Ext-T1	INSE	NA	139827	139827
+Raw	RH24SEDLTS-PAP2-R1S2	NA	NA	99179	99179
+Demultiplexed	RH24SEDLTS-PAP2-R1S2	INSE	A	5473	5473
+RemovePrimer	RH24SEDLTS-PAP2-R1S2	INSE	A	5452	5452
+Demultiplexed	RH24SEDLTS-PAP2-R1S2	INSE	B	7815	7815
+RemovePrimer	RH24SEDLTS-PAP2-R1S2	INSE	B	7780	7780
+Demultiplexed	RH24SEDLTS-PAP2-R1S2	INSE	C	19	19
+RemovePrimer	RH24SEDLTS-PAP2-R1S2	INSE	C	14	14
+NoTag	RH24SEDLTS-PAP2-R1S2	INSE	NA	85872	85872
+Raw	RH24SEDLTS-PAP2-R2S4	NA	NA	94631	94631
+Demultiplexed	RH24SEDLTS-PAP2-R2S4	INSE	A	0	0
+RemovePrimer	RH24SEDLTS-PAP2-R2S4	INSE	A	0	0
+Demultiplexed	RH24SEDLTS-PAP2-R2S4	INSE	B	5894	5894
+RemovePrimer	RH24SEDLTS-PAP2-R2S4	INSE	B	5859	5859
+Demultiplexed	RH24SEDLTS-PAP2-R2S4	INSE	C	6600	6600
+RemovePrimer	RH24SEDLTS-PAP2-R2S4	INSE	C	6574	6574
+NoTag	RH24SEDLTS-PAP2-R2S4	INSE	NA	82137	82137
+NoTag	RH24SEDLTS-PAP2-R2S4	INSE	NA	82137	82137
+Totaux par étape (fichier : /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/NumberReads/Reads_Summary.tsv) :
+Stage	Total_R1	Total_R2
+Raw	1475761	1475761
+Demultiplexed	822037	822037
+RemovePrimer	813209	813209
+NoTag	735861	735861
+- [STEP 6] : FastQC -
+FastQC : DB23-BAR-S03-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BAR-S03-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BAR-S03-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BAR-S03-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BAR-S03-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BAR-S03-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BEC-S02-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BIS-S04-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-BOU-S05-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s08-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ExtCtl-s22-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-GEL-S06-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-LIN-s01-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-MON-S05-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PcrCtl-11-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-PETGA-S03-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-ROM-S04-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : DB23-VIE-s01-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_A_R1_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_A_R2_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_B_R1_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_B_R2_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_C_R1_RemovePrimer.fastq.gz
+FastQC : PosCtl-02-Diat_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_FISH_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_FISH_B_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_FISH_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_FISH_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_INSE_A_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_INSE_A_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24EAUFIL-Ext-T3_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-Ext-T3_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_INSE_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24EAUFIL-Ext-T3_INSE_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_FISH_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24EAUFIL-PAP2-R1S2_INSE_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_FISH_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_FISH_B_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDEXC-PAP1-R1S4_FISH_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDEXC-PAP1-R1S4_INSE_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-Ext-T1_FISH_B_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-Ext-T1_FISH_B_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-Ext-T1_FISH_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-Ext-T1_FISH_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24SEDLTS-Ext-T1_INSE_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_INSE_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_INSE_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-Ext-T1_INSE_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R1S2_FISH_B_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R1S2_FISH_B_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R1S2_FISH_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R1S2_FISH_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R1S2_INSE_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_A_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_DIA_C_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_FISH_A_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_FISH_A_R2_RemovePrimer.fastq.gz
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_FISH_B_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_FISH_B_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_FISH_C_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_FISH_C_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_INSE_A_R1_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC ignoré pour /beegfs/home/adrouet/RHONECO/MB_PAP_LTS_MultiTaxa/Results/2.Traitement_de_données/Raw_miniData/1_Preprocessing/RemovePrimer/RH24SEDLTS-PAP2-R2S4_INSE_A_R2_RemovePrimer.fastq.gz (0 reads après retrait des amorces).
+FastQC : RH24SEDLTS-PAP2-R2S4_INSE_B_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_INSE_B_R2_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_INSE_C_R1_RemovePrimer.fastq.gz
+FastQC : RH24SEDLTS-PAP2-R2S4_INSE_C_R2_RemovePrimer.fastq.gz
+- [STEP 7] : MultiQC -
